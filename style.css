@@ -1,0 +1,44 @@
+@media (max-height: 800px) {
+  p {
+    font-size: 10px;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+#header-img {
+  width: 200px;
+  height: auto;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+}
+
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  color: rgb(56, 56, 56);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24;
+}
+
+#nav-list {
+  float: right;
+}
+
+a:hover {
+  background-color: rgb(236, 236, 236);
+}
